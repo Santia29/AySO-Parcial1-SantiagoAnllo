@@ -14,10 +14,10 @@ sudo usermod -aG grupodevelopers devops1
 sudo usermod -aG grupodevops devops1
 sudo usermod -aG grupodevops devops2
 
-sudo chmod -R 750 /Examenes-UTN/alumno_1
-sudo chmod -R 760 /Examenes-UTN/alumno_2
-sudo chmod -R 700 /Examenes-UTN/alumno_3
-sudo chmod -R 775 /Examenes-UTN/profesores
+sudo chmod 750 alumno_1
+sudo chmod 760 alumno_2
+sudo chmod 700 alumno_3
+sudo chmod 775 profesores
 
 whoami > Examenes-UTN/alumno_1/validar.txt
 whoami > Examenes-UTN/alumno_2/validar.txt
